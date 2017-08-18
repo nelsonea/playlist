@@ -1,0 +1,3 @@
+all:
+	python streaming.py > tweets.txt
+		

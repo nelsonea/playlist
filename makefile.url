@@ -1,0 +1,2 @@
+all:
+	cat tweets.txt | bash url.sh
