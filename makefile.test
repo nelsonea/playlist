@@ -1,0 +1,2 @@
+all:
+	sh -e url.txt

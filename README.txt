@@ -33,6 +33,8 @@ account if you are logged in.
 
 
 
-Python program uses tweepy to get tweets, to get tweepy ...
+Python program uses tweepy to get tweets. 
+
+To get tweepy 
 git clone https://github.com/tweepy/tweepy.git
 python setup.py install 
