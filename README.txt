@@ -13,7 +13,7 @@ or an exportable list.
 DIRECTIONS
 
 The command 'make tweets' runs the python program and creates a 
-text file called 'tweets.txt' Let make tweets run to collect tweets. 
+text file called 'tweets.txt'. Let 'make tweets' run to collect tweets. 
 The longer you run 'make tweets' the more tweets will be scraped. 
 'make tweets' can be stopped at any time by pressing 'control + c'.   
 
