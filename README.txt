@@ -1,28 +1,35 @@
 Erik Nelson
 
-Unix tools final project - May 10, 2017
+Unix tools project - May 2017
 
-This project runs a python program to get all tweets as they are 
-tweeted with the hashtag #NowPlaying or #nowplaying and creates a 
-playlist with the top 30 most tweeted songs. 
+This project runs a python program to scrape tweets that use
+the hashtag #NowPlaying or #nowplaying. Using Unix commands, 
+two make files extract and sort the collected twitter data 
+taking the top 30 songs and ranking them according to the 
+number of times they were tweeted (highest to lowest) and 
+create either a url that automatically searches the songs 
+or an exportable list.    
+
+DIRECTIONS
+
+The command 'make tweets' runs the python program and creates a 
+text file called 'tweets.txt' Let make tweets run to collect tweets. 
+The longer you run 'make tweets' the more tweets will be scraped. 
+'make tweets' can be stopped at any time by pressing 'control + c'.   
 
 Option 1:
-A user can copy and paste the link created by 'make url' into their
-browser and then choose what format they want to convert to.    
+A user can enter the command 'make url' which will automatically
+generate and open a url that performs a search of the songs, making 
+them available to be converted to Spotify.
 
 Option 2:
-The generated list of songs can then be copy and pasted into the textbox here
-http://spotlistr.herokuapp.com/#/search/textbox followed by clicking
-'Search!' then making a name for the playlist and clicking 'Create'. 
-This imports the playlist created into your Spotify account if you are 
-logged in.
+The command 'make playlist' creates a list of songs from all of the tweets. 
+The generated list of songs can then be copy and pasted into the 
+textbox here: http://spotlistr.herokuapp.com/#/search/textbox 
+followed by clicking 'Search!', choosing a name for the playlist and 
+clicking 'Create'. This imports the created playlist into your Spotify 
+account if you are logged in.
 
-
-The command 'make tweets' runs the python program and creates a text file called 'tweets.txt' 
-
-The command 'make playlist' creates a list of songs from all of the tweets 
-
-The command 'make url' creates the url that can be copy and pasted into the browser
 
 
 
